@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises</title>
+</head>
+<body>
+    <h1>Part 1: Number Facts</h1>
+    <h3>Make a request to the Numbers API to get a fact about your favorite number.</h3>
+    <p id="fact1"></p>
+    <h3>Figure out how to get data on multiple numbers in a single request. Make that request and when you get the data back, put all of the number facts on the page.</h3>
+    <ul id="facts2"></ul>
+    <h3>Use the API to get 4 facts on your favorite number. Once you have them all, put them on the page. It's okay if some of the facts are repeats.</h3>
+    <ul id="facts3"></ul>
+    <h2>Part 2: Deck of Cards</h2>
+    <h3>Make a request to the Deck of Cards API to request a single card from a newly shuffled deck.</h3>
+    <ul id="card1"></ul>
+    <h3>Make a request to the deck of cards API to request a single card from a newly shuffled deck. Once you have the card, make a request to the same API to get one more card from the same deck. Once you have both cards, console.log the values and suits of both cards.</h3>
+    <p id="card1of2"></p>
+    <p id="card2of2"></p>
+    <h3>Build an HTML page that lets you draw cards from a deck. When the page loads, go to the Deck of Cards API to create a new deck, and show a button on the page that will let you draw a card. Every time you click the button, display a new card, until there are no cards left in the deck.</h3>
+    <div>
+        <button>Draw a Card</button>
+        <ul id="manyCards"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
